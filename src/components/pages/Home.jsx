@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Profile from "../../components/pages/profile/Profile";
-import About from "../../components/pages/about/About";
-import Skills from "../../components/pages/skills/Skills";
-import Experiences from "../../components/pages/experiences/Experiences";
+import Profile from "./profile/Profile";
+import About from "./about/About";
+import Skills from "./skills/Skills";
+import Experiences from "./experiences/Experiences";
 import Educations from "./MyProjects/GitHubUser";
 
 export default class Home extends Component {
