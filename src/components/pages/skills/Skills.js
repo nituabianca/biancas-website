@@ -39,7 +39,7 @@ export default function Skills() {
               </div>
             </div>
             <div className="col s6">
-              <p>PHP</p>
+              <p>C/C++</p>
               <div className="progress grey lighten-1">
                 <div
                   className="determinate blue"
@@ -50,7 +50,7 @@ export default function Skills() {
           </div>
           <div className="row">
             <div className="col s6">
-              <p>MySQL</p>
+              <p>SQL</p>
               <div className="progress grey lighten-1">
                 <div
                   className="determinate blue"
@@ -59,7 +59,7 @@ export default function Skills() {
               </div>
             </div>
             <div className="col s6">
-              <p>JQUERY</p>
+              <p>PYTHON</p>
               <div className="progress grey lighten-1">
                 <div
                   className="determinate blue"

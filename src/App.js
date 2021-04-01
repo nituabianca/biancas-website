@@ -5,9 +5,8 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './components/pages/Home';
 import Skills from './components/pages/skills/Skills';
 import Experiences from './components/pages/experiences/Experiences';
-import Educations from './components/pages/educations/Educations';
-import Portfolios from './components/pages/portfolios/Portfolios';
 import './App.css';
+import GitHubUser from "./containers/GitHubUser";
 
 function App() {
   return (
@@ -17,11 +16,12 @@ function App() {
         <Switch>
           <Route path="/skills" component={Skills} />
           <Route path="/experience" component={Experiences} />
-          <Route path="/education" component={Educations} />
-          <Route path="/portfolios" component={Portfolios} />
+          <Route path="/education" component={GitHubUser} />
+
         </Switch>
       </>
     </Router>
+    
   );
 }
 
