@@ -49,7 +49,7 @@ export default function GitHubUser() {
                             >
                                 {repo.owner.login}
                             </Typography>
-                            {" — " + repo.description}
+                            
                         </React.Fragment>
                     }
                 />

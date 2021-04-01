@@ -20,7 +20,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function GitHubUser() {
-    const userName = 'rokittycat';
+    const userName = 'nituabianca';
     const [repos, setRepos] = useState([]);
 
     const classes = useStyles();

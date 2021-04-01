@@ -55,12 +55,7 @@ export default class Navbar extends Component {
 					</li>
 					<li>
 						<Link to='/education'>
-							<i class='fas fa-graduation-cap'></i> Education
-						</Link>
-					</li>
-					<li>
-						<Link to='/portfolio'>
-							<i class='fas fa-address-card'></i> Portfolio
+							<i class='fas fa-graduation-cap'></i> GitHub Repos
 						</Link>
 					</li>
 				</ul>

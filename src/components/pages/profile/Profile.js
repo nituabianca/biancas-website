@@ -24,10 +24,10 @@ export default function Profile() {
             <i className="material-icons right">close</i>
           </span>
           <p className="flex-container">
-            <i className="fab fa-github grey-text text-darken-4 social_style"></i>
-            <i className="fab fa-linkedin grey-text text-darken-4 social_style"> </i>
-            <i className="fab fa-facebook-f grey-text text-darken-4 social_style"></i>
-            <i className="fab fa-instagram grey-text text-darken-4 social_style"></i>
+          <a href="https://github.com/nituabianca"><i className="fab fa-github grey-text text-darken-4 social_style"></i></a>
+          <a href="https://www.linkedin.com/in/bianca-ni%C8%9Bu-a1434b1b9/"><i className="fab fa-linkedin grey-text text-darken-4 social_style"> </i></a>
+          <a href="https://www.facebook.com/nitu.andreeabianca/"><i className="fab fa-facebook-f grey-text text-darken-4 social_style"></i></a>
+          <a href="https://www.instagram.com/bianca_a_nitu/"><i className="fab fa-instagram grey-text text-darken-4 social_style"></i></a>
           </p>
         </div>
       </div>

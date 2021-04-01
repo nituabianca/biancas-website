@@ -7,11 +7,13 @@ import Skills from './components/pages/skills/Skills';
 import Experiences from './components/pages/experiences/Experiences';
 import './App.css';
 import GitHubUser from "./containers/GitHubUser";
+import Navbar from '../src/components/navbar/Navbar';
 
 function App() {
   return (
     <Router>
       <>
+    <Navbar/>
         <Route exact path="/" component={Home} />
         <Switch>
           <Route path="/skills" component={Skills} />

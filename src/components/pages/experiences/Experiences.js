@@ -17,10 +17,11 @@ import ImgLiceu from "../../../images/cnvs.jpeg";
 const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 345,
+    alignItems: 'center',
   },
   media: {
     height: 0,
-    alignItems: "center",
+    alignItems: 'center',
     paddingTop: "56.25%", // 16:9
   },
 }));
