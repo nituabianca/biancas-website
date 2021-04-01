@@ -17,11 +17,11 @@ import ImgLiceu from "../../../images/cnvs.jpeg";
 const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 345,
-    alignItems: 'center',
+    alignItems: "center",
   },
   media: {
     height: 0,
-    alignItems: 'center',
+    alignItems: "center",
     paddingTop: "56.25%", // 16:9
   },
 }));
@@ -48,24 +48,24 @@ export default function Experiences() {
               />
               <img className="media" src={ImgSiSC} alt="sisc" />
               <Typography paragraph>
-              •I coordinated of the event entitled Algoritmică. Our team worked
-              on creating, solving and testing the exercises.
-            </Typography>
-            <Typography paragraph>
-              •My curiosity and desire to learn new things allowed me to get all
-              sorts of knowledge from my colleagues.
-            </Typography>
-            <Typography paragraph>
-              •I have managed to complete my tasks on time while learning
-              JavaScript and consolidating my knowledge of HTML&CSS.
-            </Typography>
-            <Typography paragraph>
-              •I held a short front-end training in which I had the opportunity
-              to develop my communication skills and to teach people how to code
-              using HTML, CSS and JavaScript and how to use the Inspect Tool.
-            </Typography>
+                •I coordinated of the event entitled Algoritmică. Our team
+                worked on creating, solving and testing the exercises.
+              </Typography>
+              <Typography paragraph>
+                •My curiosity and desire to learn new things allowed me to get
+                all sorts of knowledge from my colleagues.
+              </Typography>
+              <Typography paragraph>
+                •I have managed to complete my tasks on time while learning
+                JavaScript and consolidating my knowledge of HTML&CSS.
+              </Typography>
+              <Typography paragraph>
+                •I held a short front-end training in which I had the
+                opportunity to develop my communication skills and to teach
+                people how to code using HTML, CSS and JavaScript and how to use
+                the Inspect Tool.
+              </Typography>
             </Card>
-            
           </TimelineContent>
         </TimelineItem>
 

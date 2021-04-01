@@ -49,7 +49,6 @@ export default function GitHubUser() {
               >
                 {repo.owner.login}
               </Typography>
-              {" — " + repo.description}
             </React.Fragment>
           }
         />
@@ -60,7 +59,7 @@ export default function GitHubUser() {
 
   return (
     <div>
-      <Typography variant="h4" align="left">
+      <Typography variant="h5" align="left">
         MY PROJECTS
       </Typography>
       <List className={classes.root}>{listItems}</List>

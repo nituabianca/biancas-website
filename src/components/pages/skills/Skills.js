@@ -1,13 +1,12 @@
-import React from 'react';
+import React from "react";
 // import { makeStyles } from '@material-ui/core/styles';
-import CircularProgress from '@material-ui/core/CircularProgress';
+import CircularProgress from "@material-ui/core/CircularProgress";
 
 export default function Skills() {
   return (
     <div>
-     
       <div className="card">
-        <div className="card-content" >
+        <div className="card-content">
           <h6>
             <strong>PROFESSIONAL SKILLS</strong>
           </h6>
